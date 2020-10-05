@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .headericonos {
+    width: 100%;
+    height: 60px;
+    display: grid;
+    background-color: #303f9f;
+
+}
+
+header .headericonos .iconos {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-main {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 250px;
+}
+
+.information {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    margin-top: 15px;
+}
+
+.information img {
+    width: 130px;
+    height: 170px;
+    border-radius: 15px;
+}
+
+.home-main-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 40px 40px 100px;
+}
+
+.card {
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.342);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    height: auto;
+    justify-content: center;
+    margin: 10px;
+    width: 25%;
+}
+
+.content-cards img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+.card h3{
+    text-align: center;
+}
+.card p{
+    margin: 10px;
+    text-align: center;
+}
+.card li{
+    font-family:'Roboto', sans-serif ;
+}
+.navigation{
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-titulo{
+    margin:5px;
+    width: 25%;
+    text-align: center;
+}
+.nav-navigation{
+    padding-right: 10px;
+    text-align: end;
+    width: 25%;
+
+}
+
