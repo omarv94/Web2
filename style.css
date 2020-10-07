@@ -1,0 +1,95 @@
+body{
+    margin-top: 0;
+    padding: 0;
+    background-color:#afb42b;
+    text-decoration:none;
+
+
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: none;
+}
+
+.bannner-header{
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    width:70%;
+    margin: 30px;
+}
+.banner img{
+    display: flex;
+    height:100%;
+    width:100%;
+    border-radius: 30px;
+}
+.nav-header{
+color: black;
+display: flex;
+align-content: flex-start;
+padding:10px;
+height: auto;
+margin-left: 50px;
+}
+.nav-header a{
+font-size: 20px;
+}
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px ;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.card{
+background-color:white;
+align-items: center;
+border-radius: 4px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.342);
+display: flex;
+flex-direction: column;
+flex-grow: 3;
+height: auto;
+justify-content: center;
+margin: 10px;
+width: 20%;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.controler{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.controler button{
+    text-decoration: none;
+    border: 15px;
+    display: flex;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.titulo-cancion{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    text-align:start;
+}
+.audio-main audio{
+    width:280px;
+    border: 0.5px solid #616161;
+    border-radius: 25px;
+    margin-top: 10px;
+}

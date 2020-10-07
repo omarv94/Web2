@@ -111,12 +111,14 @@ nav {
 .nav-titulo{
     margin:5px;
     width: 25%;
+    font-size: 36px;
     text-align: center;
 }
 .nav-navigation{
     padding-right: 10px;
     text-align: end;
     width: 25%;
+    font-size: 20px;
 
 }
 
