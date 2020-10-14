@@ -3,6 +3,13 @@
 body {
     margin: 0;
     padding: 0;
+    /* background: #11998e; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #38ef7d, #11998e); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #38ef7d, #11998e); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 a {
@@ -41,6 +48,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
 }
+
 .home-main {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
@@ -93,32 +101,37 @@ nav {
 .container {
     padding: 2px 16px;
 }
-.card h3{
+
+.card h3 {
     text-align: center;
 }
-.card p{
+
+.card p {
     margin: 10px;
     text-align: center;
 }
-.card li{
-    font-family:'Roboto', sans-serif ;
+
+.card li {
+    font-family: 'Roboto', sans-serif;
 }
-.navigation{
+
+.navigation {
     margin: 10px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.nav-titulo{
-    margin:5px;
+
+.nav-titulo {
+    margin: 5px;
     width: 25%;
     font-size: 36px;
     text-align: center;
 }
-.nav-navigation{
+
+.nav-navigation {
     padding-right: 10px;
     text-align: end;
     width: 25%;
     font-size: 20px;
 
 }
-

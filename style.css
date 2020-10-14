@@ -1,3 +1,23 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
 body{
     margin-top: 0;
     padding: 0;
@@ -73,6 +93,9 @@ width: 20%;
     display: flex;
     justify-content: space-between;
 }
+button{
+    -webkit-appearance: none;
+}
 .controler button{
     text-decoration: none;
     border: 15px;
@@ -88,7 +111,7 @@ width: 20%;
     text-align:start;
 }
 .audio-main audio{
-    width:280px;
+    width:300px;
     border: 0.5px solid #616161;
     border-radius: 25px;
     margin-top: 10px;
